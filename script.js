@@ -61,8 +61,8 @@ var myName = "rohan sharma is a student";
 // console.log(`${fName} ${lName} is a website develope.`);
 
 // arithematic operators
-var a = 20;
-var b = 3;
+// var a = 20;
+// var b = 3;
 // console.log(a+b)
 // console.log(a-b)
 // console.log(a*b)
@@ -174,20 +174,63 @@ var b = 3;
 // }
 // bmiCalculator();
 
-function bmicalculator() {
-  var weight = Number(prompt("enter your weight in kg", "weight"));
-  var height = Number(prompt("enter your height in m", "height"));
-  var bmi = weight / (height * height);
-  console.log(`your bmi is ${bmi}`);
+// function bmicalculator() {
+//   var weight = Number(prompt("enter your weight in kg", "weight"));
+//   var height = Number(prompt("enter your height in m", "height"));
+//   var bmi = weight / (height * height);
+//   console.log(`your bmi is ${bmi}`);
 
-  if (bmi < 18.5) {
-    alert(`underweight as your Bmi is ${bmi} `);
-  } else if (bmi > 18.5 && bmi < 24.9) {
-    alert(`normal weight as your Bmi is ${bmi}`);
-  } else if (bmi > 25 && bmi < 29.9) {
-    alert(`Overweight as your Bmi is ${bmi}`);
-  } else if (bmi >= 30) {
-    alert(`Obesse as your Bmi is ${bmi}`);
-  }
-}
-bmicalculator();
+//   if (bmi < 18.5) {
+//     alert(`underweight as your Bmi is ${bmi} `);
+//   } else if (bmi > 18.5 && bmi < 24.9) {
+//     alert(`normal weight as your Bmi is ${bmi}`);
+//   } else if (bmi > 25 && bmi < 29.9) {
+//     alert(`Overweight as your Bmi is ${bmi}`);
+//   } else if (bmi >= 30) {
+//     alert(`Obesse as your Bmi is ${bmi}`);
+//   }
+// }
+// bmicalculator();
+
+
+// console.log(Math.random())
+
+
+// anonymous function
+// const greet = function (){
+//     alert("hello world")
+// }
+
+
+// console.log(typeof greet);
+
+// greet()
+
+// arrow function / es6
+// const greet = ()=>{
+//     alert("hello world")
+// }
+
+// console.log(typeof greet);
+
+
+
+// const loveCalculator = ()=>{
+//     var herName = prompt("Enter Her Name : ")
+//     var hisName = prompt("Enter His Name : ")
+//    var love = Math.round(Math.random() * 100)
+//     alert(` ${herName} & ${hisName} your Love Percentage is :  ${love}%`)
+
+// }
+
+
+// loveCalculator()
+    
+
+// date module
+
+// const today = new Date().toLocaleDateString()
+// const today = new Date().getFullYear()
+
+// console.log(today);
+
