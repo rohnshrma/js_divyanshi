@@ -192,15 +192,12 @@ var myName = "rohan sharma is a student";
 // }
 // bmicalculator();
 
-
 // console.log(Math.random())
-
 
 // anonymous function
 // const greet = function (){
 //     alert("hello world")
 // }
-
 
 // console.log(typeof greet);
 
@@ -213,8 +210,6 @@ var myName = "rohan sharma is a student";
 
 // console.log(typeof greet);
 
-
-
 // const loveCalculator = ()=>{
 //     var herName = prompt("Enter Her Name : ")
 //     var hisName = prompt("Enter His Name : ")
@@ -223,9 +218,7 @@ var myName = "rohan sharma is a student";
 
 // }
 
-
 // loveCalculator()
-    
 
 // date module
 
@@ -233,4 +226,87 @@ var myName = "rohan sharma is a student";
 // const today = new Date().getFullYear()
 
 // console.log(today);
+
+//  arrays
+// []
+
+var myList = ["abc", 234, 1.2, true, ["abc", "cde"], 1234];
+
+// console.log(myList[0]);
+// console.log(myList[1]);
+// console.log(myList[2]);
+// console.log(myList[3]);
+// console.log(myList[4]);
+
+// for (var i = 0 ; i < myList.length ; i++){
+//     console.log(myList[i]);
+// }
+
+// console.log( myList[0]);
+// console.log(typeof myList);
+// console.log(myList.length);
+
+//loops
+// for  / while / do while
+//  intiialization / condition / increment
+
+// for
+
+// for (var i = 0; i < 100; i++) {
+//   console.log(`the value of i is ${i}`);
+// }
+
+// while
+// var i = 0;
+// while (i < 100) {
+//   console.log(`the value of i is ${i}`);
+//   i++;
+// }
+
+// do while
+
+// var i = 0;
+
+// do {
+//   console.log(`the value of i is ${i}`);
+//   i++;
+// } while (i < 100);
+
+// var num= Number(prompt("enter the number","number"))
+// for(i=0;i<=10;i++)
+// {
+//   console.log(`${num} * ${i} = ${num*i}`)
+
+// }
+
+// const giveTable = ()=>{
+//     var num= Number(prompt("enter the number","number"))
+//     for (var i = 1; i <=10 ; i++){
+//         var result = i * num
+//         console.log(` ${num} * ${i} = ${result}`);
+//     }
+// }
+
+// giveTable()
+
+// const lifespan = () => {
+//   var dob = Number(prompt("enter your date of birth", "dob"));
+//   const averageAge = 90;
+//   var today = new Date().getFullYear();
+
+//   var age = today - dob;
+
+//   if (age <= averageAge) {
+//     var year = averageAge - age;
+//     var month = year * 12;
+//     var week = year * 52;
+//     var days = year * 365;
+//     console.log(
+//       `You Have ${year} year left \n${month} month left \n${week}  week left \n${days} days left`
+//     );
+//   } else {
+//     console.log(`enter if your age is below 90 only`);
+//   }
+// };
+// lifespan();
 
