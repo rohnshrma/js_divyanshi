@@ -230,8 +230,6 @@ var myName = "rohan sharma is a student";
 //  arrays
 // []
 
-var myList = ["abc", 234, 1.2, true, ["abc", "cde"], 1234];
-
 // console.log(myList[0]);
 // console.log(myList[1]);
 // console.log(myList[2]);
@@ -310,3 +308,78 @@ var myList = ["abc", 234, 1.2, true, ["abc", "cde"], 1234];
 // };
 // lifespan();
 
+var myList = ["abc", 234, 1.2, true, ["abc", "cde"], 1234];
+
+// // push data in the end of an array
+// myList.push("hello world")
+// console.log(myList);
+
+// console.log(myList.length)
+// myList.reverse()
+// console.log(myList)
+
+// for (var i = 0 ; i < myList.length; i++){
+//     console.log(`item no ${i} ${myList[i]}`);
+// }
+
+// console.log(myList.slice(0, 4));
+
+// myList.shift("hello world")
+
+// myList.unshift("hello")
+
+// myList.pop()
+
+// console.log(myList.includes("abcd"))
+
+// console.log(myList)
+
+// object
+var myCar = {
+  name: "mustang",
+  brand: "Ford",
+  year: 2020,
+  color: ["red", "black", "yellow"],
+
+// an arrow function inside an object doesn't have access to "this" keyword but 
+// an anonymous function does 
+
+// if inside an object in an arrow function "this" keyword means the window / document / global object
+// if inside an object in an anonymous function "this" keyword means the object itself
+
+
+
+  details: function()  {
+    console.log(`The name of the Car is ${this.name} and it comes from ${this.brand}.
+    \nIt's a ${this.year} model and Available in ${this.color} `);
+
+  },
+};
+
+// console.log(myCar["name"])
+// console.log(myCar["year"])
+// console.log(myCar["color"])
+// console.log(myCar);
+
+// myCar.details();
+
+
+// console.log(this);
+
+
+// constructor function
+
+function Car(name, brand , year , colors){
+    this.carName = name
+    this.carBrand = brand
+    this.carYear = year
+    this.carColors = colors
+    this.details = function(){
+        console.log(`The name of the Car is ${this.name} and it comes from ${this.brand}.
+        \nIt's a ${this.year} model and Available in ${this.color} `);
+    }
+}
+
+
+var mustang = new Car("mustang","ford",2020, ["red","green","yellow"])
+console.log(mustang);
