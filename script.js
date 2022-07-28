@@ -369,17 +369,17 @@ var myCar = {
 
 // constructor function
 
-function Car(name, brand , year , colors){
-    this.carName = name
-    this.carBrand = brand
-    this.carYear = year
-    this.carColors = colors
-    this.details = function(){
-        console.log(`The name of the Car is ${this.name} and it comes from ${this.brand}.
-        \nIt's a ${this.year} model and Available in ${this.color} `);
-    }
-}
+// function Car(name, brand , year , colors){
+//     this.carName = name
+//     this.carBrand = brand
+//     this.carYear = year
+//     this.carColors = colors
+//     this.details = function(){
+//         console.log(`The name of the Car is ${this.name} and it comes from ${this.brand}.
+//         \nIt's a ${this.year} model and Available in ${this.color} `);
+//     }
+// }
 
 
-var mustang = new Car("mustang","ford",2020, ["red","green","yellow"])
-console.log(mustang);
+// var mustang = new Car("mustang","ford",2020, ["red","green","yellow"])
+// console.log(mustang);
